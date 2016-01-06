@@ -4,7 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <requiredProperties>
 	<requiredProperty key="bundleName" >
-      <defaultValue/>
+      <defaultValue>Digiwes bundle name</defaultValue>
     </requiredProperty>
   </requiredProperties>
   <fileSets>
@@ -13,6 +13,9 @@
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
               <directory>src/main/resources</directory>
+			  <includes>
+                <include>**/*.properties</include>
+              </includes>
         </fileSet>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
               <directory>src/test/java</directory>
