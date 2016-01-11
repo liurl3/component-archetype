@@ -4,7 +4,7 @@
 
   <groupId>com.digiwes</groupId>
   <artifactId>component-archetype</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
   <packaging>maven-archetype</packaging>
 
   <name>component-archetype</name>
