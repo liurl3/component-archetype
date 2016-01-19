@@ -9,7 +9,7 @@
 
     <artifactId>${artifactId}</artifactId>
     <packaging>bundle</packaging>
-    <name>${artifactId}</name>
+    <name>${bundleName}</name>
     <url>http://digiwes.com</url>
     <dependencies>
         <dependency>
@@ -43,7 +43,7 @@
 						<Private-Package></Private-Package>
 						<Import-Package></Import-Package>
 						<Include-Resource></Include-Resource>
-                        <DynamicImport-Package>*</DynamicImport-Package>
+                        <DynamicImport-Package></DynamicImport-Package>
                     </instructions>
                 </configuration>
             </plugin>
